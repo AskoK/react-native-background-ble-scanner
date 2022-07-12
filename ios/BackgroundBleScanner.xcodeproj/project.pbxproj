@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		188613E4287D99530024428A /* IOSNativeToast.m in Sources */ = {isa = PBXBuildFile; fileRef = 188613E3287D99530024428A /* IOSNativeToast.m */; };
+		188613E7287DA9760024428A /* BackgroundBleScanner.m in Sources */ = {isa = PBXBuildFile; fileRef = 188613E5287DA9750024428A /* BackgroundBleScanner.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -26,6 +27,8 @@
 		134814201AA4EA6300B7C361 /* libBackgroundBleScanner.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libBackgroundBleScanner.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		188613E2287D99530024428A /* IOSNativeToast.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IOSNativeToast.h; sourceTree = "<group>"; };
 		188613E3287D99530024428A /* IOSNativeToast.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IOSNativeToast.m; sourceTree = "<group>"; };
+		188613E5287DA9750024428A /* BackgroundBleScanner.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BackgroundBleScanner.m; sourceTree = "<group>"; };
+		188613E6287DA9760024428A /* BackgroundBleScanner.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BackgroundBleScanner.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,12 +50,22 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
+		188613E8287DAAAF0024428A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		58B511D21A9E6C8500147676 = {
 			isa = PBXGroup;
 			children = (
+				188613E6287DA9760024428A /* BackgroundBleScanner.h */,
+				188613E5287DA9750024428A /* BackgroundBleScanner.m */,
 				188613E2287D99530024428A /* IOSNativeToast.h */,
 				188613E3287D99530024428A /* IOSNativeToast.m */,
 				134814211AA4EA7D00B7C361 /* Products */,
+				188613E8287DAAAF0024428A /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -113,6 +126,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				188613E7287DA9760024428A /* BackgroundBleScanner.m in Sources */,
 				188613E4287D99530024428A /* IOSNativeToast.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
