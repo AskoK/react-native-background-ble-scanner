@@ -1,6 +1,6 @@
 // BackgroundBleScannerPackage.java
 
-package com.reactlibrary;
+package com.reactnativebackgroundblescanner;
 
 import java.util.Arrays;
 import java.util.Collections;
