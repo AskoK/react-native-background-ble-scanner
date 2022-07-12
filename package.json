@@ -1,7 +1,7 @@
 {
   "name": "react-native-background-ble-scanner",
   "title": "React Native Background Ble Scanner",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "Module to scan and connect ble devices when application is closed",
   "main": "index.js",
   "files": [
